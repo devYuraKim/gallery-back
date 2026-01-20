@@ -45,6 +45,3 @@ jobs:
           tags: |
             ${{secrets.DOCKER_USERNAME}}/gallery-back:latest
             ${{secrets.DOCKER_USERNAME}}/gallery-back:${{github.sha}}
-            
-
-  deploy:
